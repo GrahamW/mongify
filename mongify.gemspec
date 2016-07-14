@@ -12,8 +12,8 @@ Gem::Specification.new do |s|
   s.description = %q{Mongify allows you to map your sql data into a mongodb document database with a simple DSL.}
   s.required_ruby_version = ">= 1.8.7"
 
-  s.add_dependency('activerecord', ">= 4.2")
-  s.add_dependency('activesupport', ">= 4.2")
+  s.add_dependency('activerecord', "4.2")
+  s.add_dependency('activesupport', "4.2")
   s.add_dependency('mongo', ">= 1.10.2")
   s.add_dependency('bson', ">= 1.10.2")
   s.add_dependency('bson_ext', ">= 1.10.2") unless RUBY_PLATFORM == 'java'
